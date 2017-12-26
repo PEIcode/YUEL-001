@@ -1,0 +1,16 @@
+//
+//  YUEL.pch
+//  YUEL
+//
+//  Created by sunny&pei on 2017/12/7.
+//  Copyright © 2017年 sunny&pei. All rights reserved.
+//
+
+#ifndef YUEL_pch
+#define YUEL_pch
+#define PSCREEN_W [UIScreen mainScreen].bounds.size.width
+#define PSCREEN_H [UIScreen mainScreen].bounds.size.height
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* YUEL_pch */
