@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05D4ADFC07F57EB0E732E52C /* libPods-YUEL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2A31C9FD3B78B139CB7A7E /* libPods-YUEL.a */; };
+		5F7370780F8AACAD29727EBE /* libPods-YUELUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED1CAC35E74371D1439F78CB /* libPods-YUELUITests.a */; };
+		EC85B14CCFEF657DECDA74E2 /* libPods-YUELTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4591DB9FDD8679C0AF2F41A2 /* libPods-YUELTests.a */; };
 		FC1E1D3E1FD80C300002EA84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1E1D3D1FD80C300002EA84 /* AppDelegate.m */; };
 		FC1E1D441FD80C300002EA84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1E1D421FD80C300002EA84 /* Main.storyboard */; };
 		FC1E1D461FD80C300002EA84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1E1D451FD80C300002EA84 /* Assets.xcassets */; };
@@ -37,6 +40,8 @@
 		FCA5C5371FECF27C00F5ECAC /* PSTopicPicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA5C5361FECF27C00F5ECAC /* PSTopicPicView.xib */; };
 		FCA5C53A1FF0EE0D00F5ECAC /* PSTopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA5C5391FF0EE0D00F5ECAC /* PSTopicVideoView.m */; };
 		FCA5C53C1FF0EE2A00F5ECAC /* PSTopicVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA5C53B1FF0EE2A00F5ECAC /* PSTopicVideoView.xib */; };
+		FCA5C5411FF3B18900F5ECAC /* PSHeratView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA5C5401FF3B18900F5ECAC /* PSHeratView.m */; };
+		FCA5C5451FF5111700F5ECAC /* NTPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA5C5431FF50FE700F5ECAC /* NTPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +62,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BAADE87295A4F3F6A98FB48 /* Pods-YUELTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUELTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YUELTests/Pods-YUELTests.release.xcconfig"; sourceTree = "<group>"; };
+		23F6B02A3D54E31FFF10AE36 /* Pods-YUELTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUELTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YUELTests/Pods-YUELTests.debug.xcconfig"; sourceTree = "<group>"; };
+		247B777AEEB403D4B6772D9B /* Pods-YUELUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUELUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YUELUITests/Pods-YUELUITests.release.xcconfig"; sourceTree = "<group>"; };
+		448AF08012EC7B9CB2E5D906 /* Pods-YUEL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUEL.release.xcconfig"; path = "Pods/Target Support Files/Pods-YUEL/Pods-YUEL.release.xcconfig"; sourceTree = "<group>"; };
+		4591DB9FDD8679C0AF2F41A2 /* libPods-YUELTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YUELTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95DD07F0AFFFBC8E5C1E520F /* Pods-YUEL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUEL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YUEL/Pods-YUEL.debug.xcconfig"; sourceTree = "<group>"; };
+		CEB468564AD273A0D75B3592 /* Pods-YUELUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUELUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YUELUITests/Pods-YUELUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED1CAC35E74371D1439F78CB /* libPods-YUELUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YUELUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2A31C9FD3B78B139CB7A7E /* libPods-YUEL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YUEL.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1E1D391FD80C300002EA84 /* YUEL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUEL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1E1D3C1FD80C300002EA84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC1E1D3D1FD80C300002EA84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -114,6 +128,10 @@
 		FCA5C5381FF0EE0D00F5ECAC /* PSTopicVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSTopicVideoView.h; sourceTree = "<group>"; };
 		FCA5C5391FF0EE0D00F5ECAC /* PSTopicVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSTopicVideoView.m; sourceTree = "<group>"; };
 		FCA5C53B1FF0EE2A00F5ECAC /* PSTopicVideoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PSTopicVideoView.xib; sourceTree = "<group>"; };
+		FCA5C53F1FF3B18900F5ECAC /* PSHeratView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSHeratView.h; sourceTree = "<group>"; };
+		FCA5C5401FF3B18900F5ECAC /* PSHeratView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSHeratView.m; sourceTree = "<group>"; };
+		FCA5C5431FF50FE700F5ECAC /* NTPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTPickerView.m; sourceTree = "<group>"; };
+		FCA5C5441FF50FE700F5ECAC /* NTPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTPickerView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D4ADFC07F57EB0E732E52C /* libPods-YUEL.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC85B14CCFEF657DECDA74E2 /* libPods-YUELTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,12 +155,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7370780F8AACAD29727EBE /* libPods-YUELUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		529900866FFD2601FD4EC13F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE2A31C9FD3B78B139CB7A7E /* libPods-YUEL.a */,
+				4591DB9FDD8679C0AF2F41A2 /* libPods-YUELTests.a */,
+				ED1CAC35E74371D1439F78CB /* libPods-YUELUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		998D271EFC35E0BBD8371089 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95DD07F0AFFFBC8E5C1E520F /* Pods-YUEL.debug.xcconfig */,
+				448AF08012EC7B9CB2E5D906 /* Pods-YUEL.release.xcconfig */,
+				23F6B02A3D54E31FFF10AE36 /* Pods-YUELTests.debug.xcconfig */,
+				1BAADE87295A4F3F6A98FB48 /* Pods-YUELTests.release.xcconfig */,
+				CEB468564AD273A0D75B3592 /* Pods-YUELUITests.debug.xcconfig */,
+				247B777AEEB403D4B6772D9B /* Pods-YUELUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FC1E1D301FD80C300002EA84 = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +192,8 @@
 				FC1E1D541FD80C300002EA84 /* YUELTests */,
 				FC1E1D5F1FD80C300002EA84 /* YUELUITests */,
 				FC1E1D3A1FD80C300002EA84 /* Products */,
+				998D271EFC35E0BBD8371089 /* Pods */,
+				529900866FFD2601FD4EC13F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,8 +212,8 @@
 			children = (
 				FC50B1C11FD8E67000A4CEB6 /* Other */,
 				FC1E1D891FD811CC0002EA84 /* DrawVc */,
-				FC1E1D771FD810390002EA84 /* 我的 */,
-				FC1E1D781FD8105D0002EA84 /* 私人订制 */,
+				FC1E1D771FD810390002EA84 /* 私人订制 */,
+				FC1E1D781FD8105D0002EA84 /* 发布 */,
 				FC1E1D761FD8102E0002EA84 /* 消息 */,
 				FC1E1D751FD810200002EA84 /* 主页 */,
 				FC1E1D6E1FD80CB90002EA84 /* TabBar */,
@@ -238,22 +284,23 @@
 			path = "消息";
 			sourceTree = "<group>";
 		};
-		FC1E1D771FD810390002EA84 /* 我的 */ = {
+		FC1E1D771FD810390002EA84 /* 私人订制 */ = {
 			isa = PBXGroup;
 			children = (
+				FCA5C5421FF50FDB00F5ECAC /* View */,
 				FC1E1D821FD810FA0002EA84 /* PSMeViewController.h */,
 				FC1E1D831FD810FA0002EA84 /* PSMeViewController.m */,
 			);
-			path = "我的";
+			path = "私人订制";
 			sourceTree = "<group>";
 		};
-		FC1E1D781FD8105D0002EA84 /* 私人订制 */ = {
+		FC1E1D781FD8105D0002EA84 /* 发布 */ = {
 			isa = PBXGroup;
 			children = (
 				FC1E1D7C1FD810B30002EA84 /* PSCreatViewController.h */,
 				FC1E1D7D1FD810B30002EA84 /* PSCreatViewController.m */,
 			);
-			path = "私人订制";
+			path = "发布";
 			sourceTree = "<group>";
 		};
 		FC1E1D891FD811CC0002EA84 /* DrawVc */ = {
@@ -348,6 +395,17 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		FCA5C5421FF50FDB00F5ECAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FCA5C5441FF50FE700F5ECAC /* NTPickerView.h */,
+				FCA5C5431FF50FE700F5ECAC /* NTPickerView.m */,
+				FCA5C53F1FF3B18900F5ECAC /* PSHeratView.h */,
+				FCA5C5401FF3B18900F5ECAC /* PSHeratView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -355,9 +413,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC1E1D651FD80C300002EA84 /* Build configuration list for PBXNativeTarget "YUEL" */;
 			buildPhases = (
+				52E3787AC9039DA730CD35D3 /* [CP] Check Pods Manifest.lock */,
 				FC1E1D351FD80C300002EA84 /* Sources */,
 				FC1E1D361FD80C300002EA84 /* Frameworks */,
 				FC1E1D371FD80C300002EA84 /* Resources */,
+				059A414600C26544FA2F7FAC /* [CP] Embed Pods Frameworks */,
+				21B0B4C49D729B8C18097A23 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -372,9 +433,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC1E1D681FD80C300002EA84 /* Build configuration list for PBXNativeTarget "YUELTests" */;
 			buildPhases = (
+				CC054242D5358203DA524F55 /* [CP] Check Pods Manifest.lock */,
 				FC1E1D4D1FD80C300002EA84 /* Sources */,
 				FC1E1D4E1FD80C300002EA84 /* Frameworks */,
 				FC1E1D4F1FD80C300002EA84 /* Resources */,
+				36FAFB567014FD280469B526 /* [CP] Embed Pods Frameworks */,
+				738D2FAA5138FD1C832CA1E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -390,9 +454,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC1E1D6B1FD80C300002EA84 /* Build configuration list for PBXNativeTarget "YUELUITests" */;
 			buildPhases = (
+				4DE4C629E2C6AEBE18475C49 /* [CP] Check Pods Manifest.lock */,
 				FC1E1D581FD80C300002EA84 /* Sources */,
 				FC1E1D591FD80C300002EA84 /* Frameworks */,
 				FC1E1D5A1FD80C300002EA84 /* Resources */,
+				B7514FF2B19D734E8702CED3 /* [CP] Embed Pods Frameworks */,
+				E692F4E089D4BBE9B49E3CE3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -480,11 +547,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		059A414600C26544FA2F7FAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YUEL/Pods-YUEL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21B0B4C49D729B8C18097A23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YUEL/Pods-YUEL-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36FAFB567014FD280469B526 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YUELTests/Pods-YUELTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DE4C629E2C6AEBE18475C49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YUELUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52E3787AC9039DA730CD35D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YUEL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		738D2FAA5138FD1C832CA1E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YUELTests/Pods-YUELTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7514FF2B19D734E8702CED3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YUELUITests/Pods-YUELUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC054242D5358203DA524F55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YUELTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E692F4E089D4BBE9B49E3CE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YUELUITests/Pods-YUELUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FC1E1D351FD80C300002EA84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCA5C5451FF5111700F5ECAC /* NTPickerView.m in Sources */,
 				FC50B1CD1FD93FDE00A4CEB6 /* PSDrawCell.m in Sources */,
 				FC50B1BB1FD81C2C00A4CEB6 /* XXViewController.m in Sources */,
 				FC1E1D851FD811690002EA84 /* LsyDrawerViewController.m in Sources */,
@@ -495,6 +710,7 @@
 				FC1E1D841FD810FA0002EA84 /* PSMeViewController.m in Sources */,
 				FC50B1C01FD8E5EF00A4CEB6 /* PSDrawHeadView.m in Sources */,
 				FC50B1D01FD9659200A4CEB6 /* PSHoriBtn.m in Sources */,
+				FCA5C5411FF3B18900F5ECAC /* PSHeratView.m in Sources */,
 				FCA5C53A1FF0EE0D00F5ECAC /* PSTopicVideoView.m in Sources */,
 				FC50B1C51FD8E69700A4CEB6 /* PSCircleBtn.m in Sources */,
 				FCA5C52C1FECE0B400F5ECAC /* PSTopic.m in Sources */,
@@ -666,6 +882,7 @@
 		};
 		FC1E1D661FD80C300002EA84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95DD07F0AFFFBC8E5C1E520F /* Pods-YUEL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -681,6 +898,7 @@
 		};
 		FC1E1D671FD80C300002EA84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 448AF08012EC7B9CB2E5D906 /* Pods-YUEL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -696,6 +914,7 @@
 		};
 		FC1E1D691FD80C300002EA84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F6B02A3D54E31FFF10AE36 /* Pods-YUELTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -711,6 +930,7 @@
 		};
 		FC1E1D6A1FD80C300002EA84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BAADE87295A4F3F6A98FB48 /* Pods-YUELTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -726,6 +946,7 @@
 		};
 		FC1E1D6C1FD80C300002EA84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB468564AD273A0D75B3592 /* Pods-YUELUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 947Y58Z74K;
@@ -740,6 +961,7 @@
 		};
 		FC1E1D6D1FD80C300002EA84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247B777AEEB403D4B6772D9B /* Pods-YUELUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 947Y58Z74K;

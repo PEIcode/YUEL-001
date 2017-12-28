@@ -49,7 +49,14 @@ typedef NS_ENUM(NSUInteger,PSTopicType) {
  图片的真实高度 
  */
 @property (nonatomic, assign) CGFloat height;
+
 @property (nonatomic, assign) CGFloat cellHeight;
+/** 小图 */
+@property (nonatomic, copy) NSString *small_image;
+/** 中图 */
+@property (nonatomic, copy) NSString *middle_image;
+/** 大图 */
+@property (nonatomic, copy) NSString *large_image;
 /**
  视频时长
  */

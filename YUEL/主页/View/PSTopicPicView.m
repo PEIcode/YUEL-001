@@ -12,7 +12,14 @@
 
 @end
 @implementation PSTopicPicView
-
+-(void)awakeFromNib{
+    self.autoresizingMask = UIViewAutoresizingNone;
+    self.imageView.userInteractionEnabled = YES;
+    [self.imageView addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(seeBig)]];
+}
+-(void)seeBig{
+    //点击事件  加载图片
+}
 -(void)setTopic:(PSTopic *)topic{
     _topic = topic;
     // 自己放一张图

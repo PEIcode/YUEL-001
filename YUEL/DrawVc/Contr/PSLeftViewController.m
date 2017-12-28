@@ -44,7 +44,7 @@
 -(void)setupIconView{
     PSDrawHeadView * headV = [[PSDrawHeadView alloc]init];
     headV.frame = CGRectMake(0, 0, self.view.frame.size.width, 200);
-    headV.backgroundColor = [UIColor colorWithRed:245/255.0 green:78/255.0 blue:62/255.0 alpha:1.0];
+    headV.backgroundColor = [UIColor colorWithRed:255/255.0 green:138/255.0 blue:128/255.0 alpha:1.0];
     [headV.iconBtn setBackgroundImage:[UIImage imageNamed:@"icon111"] forState:UIControlStateNormal];
 
     headV.nameLabel.text = @"花花";

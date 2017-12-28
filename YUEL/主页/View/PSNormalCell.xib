@@ -104,7 +104,7 @@
                 <outlet property="text_label" destination="Egb-zy-HcN" id="fTV-vL-i8l"/>
                 <outlet property="zanBtn" destination="yFe-KM-PLE" id="crt-hh-KKE"/>
             </connections>
-            <point key="canvasLocation" x="-329" y="-85"/>
+            <point key="canvasLocation" x="-332" y="-86"/>
         </tableViewCell>
     </objects>
     <resources>

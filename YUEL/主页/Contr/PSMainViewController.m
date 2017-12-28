@@ -24,8 +24,8 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"navgationitemBG"] forBarMetrics:UIBarMetricsDefault];
+    self.navigationItem.title = @"红豆";
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"navgationBG"] forBarMetrics:UIBarMetricsDefault];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:[UIFont systemFontOfSize:20.0]}];
     
     //left

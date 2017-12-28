@@ -9,12 +9,16 @@
 #import "PSTopicVideoView.h"
 @implementation PSTopicVideoView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+-(void)awakeFromNib{
+    self.autoresizingMask = UIViewAutoresizingNone;
+    self.imageView.userInteractionEnabled = YES;
+    [self.imageView addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(seeBig)]];
 }
-*/
-
+-(void)seeBig{
+    //点击事件  加载视频
+}
+-(void)setTopic:(PSTopic *)topic{
+    _topic = topic;
+    //设置一个图片
+}
 @end

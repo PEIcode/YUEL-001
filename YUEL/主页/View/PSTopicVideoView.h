@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class PSTopic;
 @interface PSTopicVideoView : UIView
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property(nonatomic,strong) PSTopic *topic;
 @end
