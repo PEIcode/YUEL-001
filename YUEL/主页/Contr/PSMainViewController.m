@@ -10,10 +10,14 @@
 #import "PSLeftViewController.h"
 #import "XXViewController.h"
 #import "LsyDrawerViewController.h"
+#import "PSSetViewController.h"
+#import "PSNormalCell.h"
+#import "PSTopic.h"
+
 @interface PSMainViewController ()
-
+@property(nonatomic,strong)NSMutableArray<PSTopic *> *topics;
 @end
-
+static NSString *const cellID = @"topic";
 @implementation PSMainViewController
 
 -(void)viewWillAppear:(BOOL)animated{
@@ -24,20 +28,35 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self setupTable];
+    
     self.navigationItem.title = @"红豆";
     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"navgationBG"] forBarMetrics:UIBarMetricsDefault];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:[UIFont systemFontOfSize:20.0]}];
-    
+    //backBarbutton
+//    self.navigationController.navigationBar.backItem
     //left
     UIBarButtonItem  *navLeftItem = [[UIBarButtonItem alloc]initWithTitle:@"我的" style:UIBarButtonItemStylePlain target:self action:@selector(leftBarButtonItemClick)];
     [navLeftItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]} forState:UIControlStateNormal];
     self.navigationItem.leftBarButtonItem = navLeftItem;
     //right
-    UIBarButtonItem  *navRightItem = [[UIBarButtonItem alloc]initWithTitle:@"设置" style:UIBarButtonItemStylePlain target:self action:nil];
+    UIBarButtonItem  *navRightItem = [[UIBarButtonItem alloc]initWithTitle:@"设置" style:UIBarButtonItemStylePlain target:self action:@selector(setClick)];
     [navRightItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]} forState:UIControlStateNormal];
     self.navigationItem.rightBarButtonItem = navRightItem;
     self.view.backgroundColor = [UIColor whiteColor];
 }
+- (void)setupTable
+{
+//    self.tableView.backgroundColor = XMGCommonBgColor;
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.tableView.contentInset = UIEdgeInsetsMake(64 + 35, 0, 49, 0);
+    self.tableView.scrollIndicatorInsets = self.tableView.contentInset;
+    // 注册cell
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([PSNormalCell class]) bundle:nil] forCellReuseIdentifier:cellID];
+    // self.tableView.rowHeight = 250;
+}
+
 -(void)leftBarButtonItemClick{
     lsy_showLeft(YES);
 }
@@ -64,25 +83,30 @@
 
 #pragma mark - Table view data source
 
-//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-//#warning Incomplete implementation, return the number of sections
-//    return 0;
-//}
-//
-//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-//#warning Incomplete implementation, return the number of rows
-//    return 0;
-//}
-
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
-    return cell;
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+#warning Incomplete implementation, return the number of sections
+    return 1;
 }
-*/
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+#warning Incomplete implementation, return the number of rows
+    return 4;
+}
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+//    static NSString *cellID = @"topic";
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID forIndexPath:indexPath];
+ 
+ 
+//    return cell;
+   
+        PSNormalCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
+        cell.topic.type = PSTopicTypeVideo;
+        return cell;
+    
+}
+
 
 /*
 // Override to support conditional editing of the table view.
@@ -127,5 +151,16 @@
     // Pass the selected object to the new view controller.
 }
 */
-
+#pragma mark - 设置
+-(void)setClick{
+    PSSetViewController *setVc = [[PSSetViewController alloc]init];
+    setVc.hidesBottomBarWhenPushed = YES;
+    UIImage *backImage = [UIImage imageNamed:@"setting_leftenter"];
+//    UIBarButtonItem *backItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"setting_leftenter"] style:UIBarButtonItemStylePlain target:nil action:nil];
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc]initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
+    self.navigationItem.backBarButtonItem = backItem;
+    [self.navigationController.navigationBar setBackIndicatorImage:backImage];
+    [self.navigationController.navigationBar setBackIndicatorTransitionMaskImage:backImage];
+    [self.navigationController pushViewController:setVc animated:YES];
+}
 @end

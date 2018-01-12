@@ -11,6 +11,9 @@
 #import "PSDrawHeadView.h"
 #import "PSDrawCell.h"
 #import "PSHoriBtn.h"
+#import "PSLoginViewController.h"
+#import "PSLoginController.h"
+
 @interface PSLeftViewController ()<UITabBarDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *tableView;
 @end
@@ -35,6 +38,8 @@
     PSHoriBtn *horiBtn = [PSHoriBtn buttonWithType:UIButtonTypeCustom frame:CGRectMake(40, 10, 150, 35) title:@"切换用户" titleColor:[UIColor darkGrayColor] titleFont:18.0 textAlignment:NSTextAlignmentLeft image:[UIImage imageNamed:@"personal_switchuser"] imageViewContentMode:UIViewContentModeCenter];
     horiBtn.block = ^(PSHoriBtn *btn) {
         //点击切换用户的操作；
+        PSLoginController *loginVc = [[PSLoginController alloc]init];
+        [self presentViewController:loginVc animated:YES completion:nil];
         NSLog(@"-----点击了切换用户");
     };
     [hh addSubview:horiBtn];

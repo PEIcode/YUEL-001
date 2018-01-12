@@ -2,18 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
+	<string>AVFoundation</string>
 	<string>CoreServices</string>
 	<string>CoreGraphics</string>
 	<string>WatchKit</string>
+	<string>AVKit</string>
 	<string>Security</string>
 	<string>XCTest</string>
 	<string>netinet6</string>
 	<string>netinet</string>
 	<string>MobileCoreServices</string>
 	<string>CoreData</string>
-	<string>Foundation</string>
 	<string>objc</string>
 	<string>UIKit</string>
+	<string>Foundation</string>
 	<string>Cocoa</string>
 	<string>SystemConfiguration</string>
 	<string>arpa</string>

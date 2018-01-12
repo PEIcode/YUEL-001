@@ -33,7 +33,12 @@
 		FC50B1CB1FD91EC100A4CEB6 /* PSDrawCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC50B1C91FD91EC100A4CEB6 /* PSDrawCell.xib */; };
 		FC50B1CD1FD93FDE00A4CEB6 /* PSDrawCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC50B1C81FD91EC100A4CEB6 /* PSDrawCell.m */; };
 		FC50B1D01FD9659200A4CEB6 /* PSHoriBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = FC50B1CF1FD9659200A4CEB6 /* PSHoriBtn.m */; };
-		FCA5C52C1FECE0B400F5ECAC /* PSTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA5C52B1FECE0B400F5ECAC /* PSTopic.m */; };
+		FC7026C12002097F00C89E67 /* PSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7026BA2002097E00C89E67 /* PSLoginViewController.m */; };
+		FC7026C22002097F00C89E67 /* PSQiuckButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7026BB2002097E00C89E67 /* PSQiuckButton.m */; };
+		FC7026C32002097F00C89E67 /* PSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7026BC2002097E00C89E67 /* PSTextField.m */; };
+		FC7026C920020A5E00C89E67 /* PSLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7026C720020A5E00C89E67 /* PSLoginController.m */; };
+		FC7026CA20020A5E00C89E67 /* PSLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7026C820020A5E00C89E67 /* PSLoginController.xib */; };
+		FC7026CB2003840E00C89E67 /* PSTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA5C52B1FECE0B400F5ECAC /* PSTopic.m */; };
 		FCA5C52F1FECE79C00F5ECAC /* NSDate+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA5C52E1FECE79C00F5ECAC /* NSDate+XMGExtension.m */; };
 		FCA5C5321FECEFE800F5ECAC /* NSCalendar+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA5C5301FECEFE800F5ECAC /* NSCalendar+XMGExtension.m */; };
 		FCA5C5351FECF24B00F5ECAC /* PSTopicPicView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA5C5341FECF24B00F5ECAC /* PSTopicPicView.m */; };
@@ -42,6 +47,7 @@
 		FCA5C53C1FF0EE2A00F5ECAC /* PSTopicVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA5C53B1FF0EE2A00F5ECAC /* PSTopicVideoView.xib */; };
 		FCA5C5411FF3B18900F5ECAC /* PSHeratView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA5C5401FF3B18900F5ECAC /* PSHeratView.m */; };
 		FCA5C5451FF5111700F5ECAC /* NTPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA5C5431FF50FE700F5ECAC /* NTPickerView.m */; };
+		FCA5C5481FF5FEEB00F5ECAC /* PSSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA5C5471FF5FEEA00F5ECAC /* PSSetViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +77,10 @@
 		CEB468564AD273A0D75B3592 /* Pods-YUELUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUELUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YUELUITests/Pods-YUELUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED1CAC35E74371D1439F78CB /* libPods-YUELUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YUELUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2A31C9FD3B78B139CB7A7E /* libPods-YUEL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YUEL.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0D92A01FFB5DD0008A57BD /* UITextField+XMGExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+XMGExtension.m"; sourceTree = "<group>"; };
+		FC0D92A11FFB5DD0008A57BD /* UITextField+XMGExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+XMGExtension.h"; sourceTree = "<group>"; };
+		FC0D92A21FFB5E28008A57BD /* UIView+XMGExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension.m"; sourceTree = "<group>"; };
+		FC0D92A31FFB5E28008A57BD /* UIView+XMGExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension.h"; sourceTree = "<group>"; };
 		FC1E1D391FD80C300002EA84 /* YUEL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUEL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1E1D3C1FD80C300002EA84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC1E1D3D1FD80C300002EA84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -116,6 +126,16 @@
 		FC50B1C91FD91EC100A4CEB6 /* PSDrawCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PSDrawCell.xib; sourceTree = "<group>"; };
 		FC50B1CE1FD9659200A4CEB6 /* PSHoriBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSHoriBtn.h; sourceTree = "<group>"; };
 		FC50B1CF1FD9659200A4CEB6 /* PSHoriBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSHoriBtn.m; sourceTree = "<group>"; };
+		FC7026BA2002097E00C89E67 /* PSLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSLoginViewController.m; sourceTree = "<group>"; };
+		FC7026BB2002097E00C89E67 /* PSQiuckButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSQiuckButton.m; sourceTree = "<group>"; };
+		FC7026BC2002097E00C89E67 /* PSTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSTextField.m; sourceTree = "<group>"; };
+		FC7026BD2002097E00C89E67 /* PSLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSLoginViewController.h; sourceTree = "<group>"; };
+		FC7026BE2002097F00C89E67 /* PSQiuckButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSQiuckButton.h; sourceTree = "<group>"; };
+		FC7026BF2002097F00C89E67 /* PSTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSTextField.h; sourceTree = "<group>"; };
+		FC7026C02002097F00C89E67 /* PSLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PSLoginViewController.xib; sourceTree = "<group>"; };
+		FC7026C620020A5E00C89E67 /* PSLoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSLoginController.h; sourceTree = "<group>"; };
+		FC7026C720020A5E00C89E67 /* PSLoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSLoginController.m; sourceTree = "<group>"; };
+		FC7026C820020A5E00C89E67 /* PSLoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PSLoginController.xib; sourceTree = "<group>"; };
 		FCA5C52A1FECE0B400F5ECAC /* PSTopic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSTopic.h; sourceTree = "<group>"; };
 		FCA5C52B1FECE0B400F5ECAC /* PSTopic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSTopic.m; sourceTree = "<group>"; };
 		FCA5C52D1FECE79C00F5ECAC /* NSDate+XMGExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+XMGExtension.h"; sourceTree = "<group>"; };
@@ -132,6 +152,8 @@
 		FCA5C5401FF3B18900F5ECAC /* PSHeratView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSHeratView.m; sourceTree = "<group>"; };
 		FCA5C5431FF50FE700F5ECAC /* NTPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTPickerView.m; sourceTree = "<group>"; };
 		FCA5C5441FF50FE700F5ECAC /* NTPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTPickerView.h; sourceTree = "<group>"; };
+		FCA5C5461FF5FEEA00F5ECAC /* PSSetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSSetViewController.h; sourceTree = "<group>"; };
+		FCA5C5471FF5FEEA00F5ECAC /* PSSetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSSetViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +207,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FC0D92981FFB58A1008A57BD /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				FC7026C520020A0E00C89E67 /* View */,
+				FC7026C4200209F800C89E67 /* Controller */,
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
 		FC1E1D301FD80C300002EA84 = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +247,7 @@
 				FC1E1D781FD8105D0002EA84 /* 发布 */,
 				FC1E1D761FD8102E0002EA84 /* 消息 */,
 				FC1E1D751FD810200002EA84 /* 主页 */,
+				FC0D92981FFB58A1008A57BD /* 登录 */,
 				FC1E1D6E1FD80CB90002EA84 /* TabBar */,
 				FC1E1D3C1FD80C300002EA84 /* AppDelegate.h */,
 				FC1E1D3D1FD80C300002EA84 /* AppDelegate.m */,
@@ -342,6 +374,8 @@
 			children = (
 				FC1E1D791FD8108A0002EA84 /* PSMainViewController.h */,
 				FC1E1D7A1FD8108A0002EA84 /* PSMainViewController.m */,
+				FCA5C5461FF5FEEA00F5ECAC /* PSSetViewController.h */,
+				FCA5C5471FF5FEEA00F5ECAC /* PSSetViewController.m */,
 			);
 			path = Contr;
 			sourceTree = "<group>";
@@ -374,6 +408,10 @@
 		FC50B1C11FD8E67000A4CEB6 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				FC0D92A31FFB5E28008A57BD /* UIView+XMGExtension.h */,
+				FC0D92A21FFB5E28008A57BD /* UIView+XMGExtension.m */,
+				FC0D92A11FFB5DD0008A57BD /* UITextField+XMGExtension.h */,
+				FC0D92A01FFB5DD0008A57BD /* UITextField+XMGExtension.m */,
 				FC50B1C21FD8E67E00A4CEB6 /* Tools */,
 				FC50B1C61FD8EB5100A4CEB6 /* YUEL.pch */,
 			);
@@ -393,6 +431,30 @@
 				FC50B1CF1FD9659200A4CEB6 /* PSHoriBtn.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		FC7026C4200209F800C89E67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC7026BD2002097E00C89E67 /* PSLoginViewController.h */,
+				FC7026BA2002097E00C89E67 /* PSLoginViewController.m */,
+				FC7026C02002097F00C89E67 /* PSLoginViewController.xib */,
+				FC7026C620020A5E00C89E67 /* PSLoginController.h */,
+				FC7026C720020A5E00C89E67 /* PSLoginController.m */,
+				FC7026C820020A5E00C89E67 /* PSLoginController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FC7026C520020A0E00C89E67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC7026BE2002097F00C89E67 /* PSQiuckButton.h */,
+				FC7026BB2002097E00C89E67 /* PSQiuckButton.m */,
+				FC7026BF2002097F00C89E67 /* PSTextField.h */,
+				FC7026BC2002097E00C89E67 /* PSTextField.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		FCA5C5421FF50FDB00F5ECAC /* View */ = {
@@ -527,6 +589,7 @@
 				FCA5C53C1FF0EE2A00F5ECAC /* PSTopicVideoView.xib in Resources */,
 				FC44752D1FE3DD93000DAD10 /* PSNormalCell.xib in Resources */,
 				FC1E1D461FD80C300002EA84 /* Assets.xcassets in Resources */,
+				FC7026CA20020A5E00C89E67 /* PSLoginController.xib in Resources */,
 				FC1E1D441FD80C300002EA84 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -699,6 +762,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7026CB2003840E00C89E67 /* PSTopic.m in Sources */,
 				FCA5C5451FF5111700F5ECAC /* NTPickerView.m in Sources */,
 				FC50B1CD1FD93FDE00A4CEB6 /* PSDrawCell.m in Sources */,
 				FC50B1BB1FD81C2C00A4CEB6 /* XXViewController.m in Sources */,
@@ -713,11 +777,15 @@
 				FCA5C5411FF3B18900F5ECAC /* PSHeratView.m in Sources */,
 				FCA5C53A1FF0EE0D00F5ECAC /* PSTopicVideoView.m in Sources */,
 				FC50B1C51FD8E69700A4CEB6 /* PSCircleBtn.m in Sources */,
-				FCA5C52C1FECE0B400F5ECAC /* PSTopic.m in Sources */,
+				FC7026C920020A5E00C89E67 /* PSLoginController.m in Sources */,
+				FC7026C32002097F00C89E67 /* PSTextField.m in Sources */,
+				FC7026C22002097F00C89E67 /* PSQiuckButton.m in Sources */,
+				FCA5C5481FF5FEEB00F5ECAC /* PSSetViewController.m in Sources */,
 				FCA5C5351FECF24B00F5ECAC /* PSTopicPicView.m in Sources */,
 				FC1E1D741FD80FBB0002EA84 /* PSMainTabBarController.m in Sources */,
 				FC1E1D881FD811830002EA84 /* DrawViewController.m in Sources */,
 				FCA5C5321FECEFE800F5ECAC /* NSCalendar+XMGExtension.m in Sources */,
+				FC7026C12002097F00C89E67 /* PSLoginViewController.m in Sources */,
 				FC1E1D8C1FD811F40002EA84 /* PSLeftViewController.m in Sources */,
 				FC1E1D811FD810C80002EA84 /* PSMessageViewController.m in Sources */,
 				FC1E1D7B1FD8108A0002EA84 /* PSMainViewController.m in Sources */,

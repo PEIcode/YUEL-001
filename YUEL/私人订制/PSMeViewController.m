@@ -10,9 +10,10 @@
 #import "XXViewController.h"
 #import "PSHeratView.h"
 #import "NTPickerView.h"
+#define fontColor [UIColor colorWithRed:112/255.0 green:112/255.0 blue:112/255.0 alpha:1.0];
 NSInteger const heartWidth = 200;
 NSInteger const heartHeight = 200;
-@interface PSMeViewController ()<UIPickerViewDelegate,UIPickerViewDataSource,UITextFieldDelegate>
+@interface PSMeViewController ()<UITextFieldDelegate>
 @property(nonatomic,strong)UIView *contentView;
 @property(nonatomic,strong)PSHeratView *heartView;
 @property(nonatomic,strong)UILabel *yuL;
@@ -32,7 +33,7 @@ NSInteger const heartHeight = 200;
 //    self.title = @"私人订制";
     self.navigationItem.title = @"私人订制";
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:[UIFont systemFontOfSize:20.0]}];
-    self.view.backgroundColor = [UIColor grayColor];
+    self.view.backgroundColor = [UIColor colorWithRed:243/255.0 green:243/255.0 blue:243/255.0 alpha:1.0];
     
     //设置内容
     [self setupContentView];
@@ -47,6 +48,7 @@ NSInteger const heartHeight = 200;
     UITextView *hintView = [[UITextView alloc]initWithFrame:CGRectMake(hintX, hintY, hintW, hintH)];
     hintView.backgroundColor = [UIColor whiteColor];
     hintView.text = @"请认真填写需求！";
+    hintView.textColor = fontColor;
     hintView.textAlignment = NSTextAlignmentCenter;
     hintView.font = [UIFont systemFontOfSize:20];
     [self.view addSubview:hintView];
@@ -66,6 +68,7 @@ NSInteger const heartHeight = 200;
     UILabel *cehuaLab = [[UILabel alloc]initWithFrame:CGRectMake(14, 30, 70, 20)];
     cehuaLab.text = @"策划类型:";
     cehuaLab.font = [UIFont systemFontOfSize:14];
+    cehuaLab.textColor =fontColor;
     [self.contentView addSubview:cehuaLab];
     //
     UIButton *gaoBtn = [[UIButton alloc]init];
@@ -83,7 +86,7 @@ NSInteger const heartHeight = 200;
     qiuBtn.backgroundColor = CommonColor;
     [qiuBtn setTitle:@"求婚" forState:UIControlStateNormal];
     [self.contentView addSubview:qiuBtn];
-    //
+    //浪漫
     UIButton *romanticBtn = [[UIButton alloc]init];
     romanticBtn.frame = CGRectMake(284, 24, 86, 32);
     romanticBtn.layer.cornerRadius = 10.0;
@@ -91,33 +94,46 @@ NSInteger const heartHeight = 200;
     romanticBtn.backgroundColor = CommonColor;
     [romanticBtn setTitle:@"浪漫" forState:UIControlStateNormal];
     [self.contentView addSubview:romanticBtn];
-    //
+    //性别
     UILabel *sexLab = [[UILabel alloc]initWithFrame:CGRectMake(14, 70, 50, 20)];
     sexLab.text = @"性别";
+    sexLab.font = [UIFont systemFontOfSize:14];
+    sexLab.textColor = fontColor;
     sexLab.font = [UIFont systemFontOfSize:14.0];
     [self.contentView addSubview:sexLab];
     
     UITextField *sexField = [[UITextField alloc]initWithFrame:CGRectMake(80, 65, 80, 32)];
-    sexField.backgroundColor = [UIColor redColor];
+    sexField.backgroundColor = [UIColor colorWithRed:243/255.0 green:243/255.0 blue:243/255.0 alpha:1.0];
     sexField.delegate = self;
     [self.contentView addSubview:sexField];
     //年龄
     UILabel *ageLab = [[UILabel alloc]initWithFrame:CGRectMake(180, 70, 50, 20)];
     ageLab.text =@"年龄";
+    ageLab.font = [UIFont systemFontOfSize:14];
+    ageLab.textColor = fontColor;
     [self.contentView addSubview:ageLab];
+    
+    UITextField *ageField = [[UITextField alloc]initWithFrame:CGRectMake(240, 65, 110, 32)];
+    ageField.backgroundColor = [UIColor colorWithRed:243/255.0 green:243/255.0 blue:243/255.0 alpha:1.0];
+    [self.contentView addSubview:ageField];
     //基本情况
     UILabel *inforLab = [[UILabel alloc]initWithFrame:CGRectMake(14, 110, 80, 20 )];
     inforLab.text = @"基本情况:";
+    inforLab.textColor = fontColor;
+    inforLab.font = [UIFont systemFontOfSize:14];
     [self.contentView addSubview:inforLab];
     UITextView *infoView = [[UITextView alloc]initWithFrame:CGRectMake(40, 140, 330, 175)];
     infoView.backgroundColor = [UIColor grayColor];
+    infoView.backgroundColor = [UIColor colorWithRed:243/255.0 green:243/255.0 blue:243/255.0 alpha:1.0];
     [self.contentView addSubview:infoView];
     //问题描述
     UILabel *quesLab = [[UILabel alloc]initWithFrame:CGRectMake(14, 325, 80, 20 )];
     quesLab.text = @"基本问题:";
+    quesLab.font = [UIFont systemFontOfSize:14];
+    quesLab.textColor = fontColor;
     [self.contentView addSubview:quesLab];
     UITextView *quesView = [[UITextView alloc]initWithFrame:CGRectMake(40, 350, 330, 175)];
-    quesView.backgroundColor = [UIColor grayColor];
+    quesView.backgroundColor = [UIColor colorWithRed:243/255.0 green:243/255.0 blue:243/255.0 alpha:1.0];
     [self.contentView addSubview:quesView];
     
 }
